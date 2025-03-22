@@ -8,7 +8,7 @@ You need to edit MySQL’s config file, which requires **Notepad as Administrato
    ```sh
    notepad C:\ProgramData\MySQL\MySQL Server 8.0\my.ini
    ```
-3. Find and edit/add the following in `[mysqld]` section: By default it will be either blank or `bind-address = 0.0.0.0` just below [mysqld] tag
+3. Find and edit/add the following in `[mysqld]` section: By default it will be either blank or `bind-address = 127.0.0.1` just below [mysqld] tag
    ```ini
    [mysqld]
    bind-address = 0.0.0.0
