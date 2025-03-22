@@ -1,3 +1,4 @@
+/* General body styling */
 body {
   background-color: #2b2d31; /* Dark gray, like VS Code & ChatGPT */
   color: #e0e0e0; /* Light gray text for contrast */
@@ -8,18 +9,23 @@ body {
   line-height: 1.6;
 }
 
+/* Code block styling */
 pre {
-  background-color: #1e1e1e; /* VS Code-style code block */
+  background-color: #1e1e1e !important; /* VS Code-style dark background */
+  color: #d4d4d4; /* Light gray text */
   padding: 12px;
   border-radius: 8px;
   overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 code {
+  background-color: transparent !important; /* Remove any white background */
   color: #8aff80; /* Greenish for syntax highlight */
   font-family: "Consolas", "Courier New", monospace;
 }
 
+/* Links */
 a {
   color: #58a6ff; /* GitHub & VS Code blue */
   text-decoration: none;
@@ -34,3 +40,15 @@ h1, h2, h3 {
   color: #ffffff; /* White for clear visibility */
 }
 
+/* Ensure inline code snippets also follow dark theme */
+p code, li code, span code {
+  background-color: #1e1e1e !important;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #8aff80;
+}
+
+/* Additional spacing for better readability */
+p, li {
+  margin-bottom: 10px;
+}
