@@ -1,21 +1,26 @@
 body {
-  background-color: #121212;
-  color: #e0e0e0;
-  font-family: Arial, sans-serif;
+  background-color: #343541;
+  color: #dcdcdc;
+  font-family: "Inter", sans-serif;
   max-width: 800px;
   margin: auto;
   padding: 20px;
   line-height: 1.6;
 }
 pre {
-  background-color: #1e1e1e;
-  padding: 10px;
-  border-radius: 5px;
+  background-color: #444654;
+  padding: 12px;
+  border-radius: 8px;
   overflow-x: auto;
 }
 code {
-  color: #ffcc00;
+  color: #19c37d;
+  font-family: "Consolas", "Courier New", monospace;
 }
 a {
-  color: #bb86fc;
+  color: #58a6ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
