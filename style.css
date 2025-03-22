@@ -1,26 +1,36 @@
 body {
-  background-color: #343541;
-  color: #dcdcdc;
+  background-color: #2b2d31; /* Dark gray, like VS Code & ChatGPT */
+  color: #e0e0e0; /* Light gray text for contrast */
   font-family: "Inter", sans-serif;
   max-width: 800px;
   margin: auto;
   padding: 20px;
   line-height: 1.6;
 }
+
 pre {
-  background-color: #444654;
+  background-color: #1e1e1e; /* VS Code-style code block */
   padding: 12px;
   border-radius: 8px;
   overflow-x: auto;
 }
+
 code {
-  color: #19c37d;
+  color: #8aff80; /* Greenish for syntax highlight */
   font-family: "Consolas", "Courier New", monospace;
 }
+
 a {
-  color: #58a6ff;
+  color: #58a6ff; /* GitHub & VS Code blue */
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff; /* White for clear visibility */
+}
+
