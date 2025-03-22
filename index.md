@@ -1,3 +1,8 @@
+<!-- Load CSS -->
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 ### **MySQL Remote Access in WSL**  
 
 ## **Step 1: Edit MySQL Configuration**  
